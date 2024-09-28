@@ -88,7 +88,7 @@ const routes = [
         name: 'Admin Orders',
         component: () =>
           import(
-            /* webpackChunkName: "admin_dashboard" */ '@/views/admins/order/Order.vue'
+            /* webpackChunkName: "admin_orders" */ '@/views/admins/order/Order.vue'
           ),
       },
       {
@@ -106,15 +106,7 @@ const routes = [
           import(
             /* webpackChunkName: "admin_reception" */ '@/views/admins/reception/Reception.vue'
           ),
-      },
-      {
-        path: 'cars',
-        name: 'Admin Cars',
-        component: () =>
-          import(
-            /* webpackChunkName: "admin_cars" */ '@/views/admins/cars/Cars.vue'
-          ),
-      },
+      }
     ]
   },
   {
@@ -149,10 +141,10 @@ const routes = [
       },
       {
         path: 'orders',
-        name: 'Reception Orders',
+        name: 'Receptionsss Ordersss',
         component: () =>
           import(
-            /* webpackChunkName: "reception_dashboard" */ '@/views/receptions/order/Order.vue'
+            /* webpackChunkName: "reception_orders" */ '@/views/receptions/order/Order.vue'
           ),
       },
     ]

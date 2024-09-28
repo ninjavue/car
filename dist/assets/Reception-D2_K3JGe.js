@@ -1,1 +1,0 @@
-import{_ as e,d as t,a as o}from"./index-DIv5KH9c.js";const c={},n={class:"reception"};function s(r,a,p,_,i,d){return o(),t("div",n," Admin Reception ")}const l=e(c,[["render",s]]);export{l as default};
