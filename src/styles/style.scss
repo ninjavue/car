@@ -1,0 +1,55 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "@coreui/coreui/scss/coreui";
+@import "@coreui/chartjs/scss/coreui-chartjs";
+
+// Vendors
+@import "vendors/simplebar";
+
+// Custom styles for this theme
+@import "theme";
+
+// If you want to add custom CSS you can put it here
+@import "custom";
+
+
+.sidebar-header.border-bottom .sidebar-brand .nav-logo {
+  width: 100%;
+  height: 50px;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+.add-admin-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+.toast {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  z-index: 2000;
+}
+
+.search{
+  width: 300px;
+}
+
+.flex{
+  display: flex;
+}
+.f-1{
+  flex:1;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.align-center{
+  align-items: center;
+}
