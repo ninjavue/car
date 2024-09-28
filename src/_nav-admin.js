@@ -22,12 +22,6 @@ export default [
         name: 'Reception',
         to: '/admin/reception',
         icon: 'cil-user',
-      },
-      {
-        component: 'CNavItem',
-        name: 'Cars',
-        to: '/admin/cars',
-        icon: 'cil-cursor',
-      },
+      }
   ]
   
