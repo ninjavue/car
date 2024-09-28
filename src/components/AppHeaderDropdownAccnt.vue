@@ -2,6 +2,9 @@
 import avatar from '@/assets/images/avatars/2.jpg'
 
 const itemsCount = 42
+function isLogout() {
+  window.location.href = "/"
+}
 </script>
 
 <template>
@@ -16,8 +19,9 @@ const itemsCount = 42
       >
         Account
       </CDropdownHeader>
-      <CDropdownItem> <CIcon icon="cil-user" /> Profile </CDropdownItem>
-      <CDropdownItem> <CIcon icon="cil-lock-locked" /> Logout </CDropdownItem>
+      <CDropdownItem style="cursor: pointer;"> <CIcon icon="cil-user" /> Profile </CDropdownItem>
+      <CDropdownItem style="cursor: pointer;" @click="isLogout"> <CIcon icon="cil-lock-locked" /> Logout </CDropdownItem>
     </CDropdownMenu>
   </CDropdown>
 </template>
+
