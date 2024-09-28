@@ -10,6 +10,8 @@ const { colorMode, setColorMode } = useColorModes('coreui-free-vue-admin-templat
 const sidebar = useSidebarStore()
 
 onMounted(() => {
+  setColorMode('dark')
+
   document.addEventListener('scroll', () => {
     if (document.documentElement.scrollTop > 0) {
       headerClassNames.value = 'mb-4 p-0 shadow-sm'
