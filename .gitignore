@@ -1,5 +1,4 @@
 # Folders to ignore
-dist/
 node_modules/
 tests/e2e/reports/
 
