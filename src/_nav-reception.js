@@ -2,13 +2,13 @@ export default [
     {
       component: 'CNavItem',
       name: 'Dashboard',
-      to: '/reception/dashboard',
+      to: '/register/dashboard',
       icon: 'cil-speedometer',
     },
     {
       component: 'CNavItem',
       name: 'Orders',
-      to: '/reception/orders',
+      to: '/register/orders',
       icon: 'cil-notes',
     }
   ]

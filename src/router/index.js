@@ -104,7 +104,7 @@ const routes = [
         name: 'Admin Reception',
         component: () =>
           import(
-            /* webpackChunkName: "admin_reception" */ '@/views/admins/reception/Reception.vue'
+            /* webpackChunkName: "admin_reception5" */ '@/views/admins/reception/Reception.vue'
           ),
       }
     ]
@@ -126,17 +126,17 @@ const routes = [
     ]
   },
   {
-    path: '/reception',
-    name: 'Reception',
+    path: '/register',
+    name: 'register',
     component: ReceptionLayout,
-    redirect: '/reception/dashboard',
+    redirect: '/register/dashboard',
     children:[
       {
         path: 'dashboard',
         name: 'Reception Dashboard',
         component: () =>
           import(
-            /* webpackChunkName: "reception_dashboard" */ '@/views/receptions/dashboard/Dashboard.vue'
+            /* webpackChunkName: "register_dashboard" */ '@/views/receptions/dashboard/Dashboard.vue'
           ),
       },
       {
@@ -144,7 +144,7 @@ const routes = [
         name: 'Receptionsss Ordersss',
         component: () =>
           import(
-            /* webpackChunkName: "reception_orders" */ '@/views/receptions/order/Order.vue'
+            /* webpackChunkName: "register_orders" */ '@/views/receptions/order/Order.vue'
           ),
       },
     ]

@@ -1,16 +1,9 @@
 {
-  "name": "@coreui/coreui-free-vue-admin-template",
+  "name": "car",
   "version": "5.2.0",
-  "description": "CoreUI Free Vue Admin Template",
-  "bugs": {
-    "url": "https://github.com/coreui/coreui-free-vue-admin-template/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:coreui/coreui-free-vue-admin-template.git"
-  },
+  "description": "Auto tuning",
   "license": "MIT",
-  "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
+  "author": "Umrzoq Yuldoshov",
   "scripts": {
     "dev": "vite --force",
     "build": "vite build",

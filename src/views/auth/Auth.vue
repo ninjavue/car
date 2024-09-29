@@ -48,7 +48,7 @@ export default {
                 }else if(this.auth.login.trim() == 'admin' && this.auth.password.trim() == 'admin123'){
                     window.location.href = "/admin"
                 }else if(this.auth.login.trim() == 'reception' && this.auth.password.trim() == 'reception123'){
-                    window.location.href = "/reception"
+                    window.location.href = "/register"
                 }else if(this.auth.login.trim() == 'worker' && this.auth.password.trim() == 'worker123'){
                     window.location.href = "/worker"
                 }else{
